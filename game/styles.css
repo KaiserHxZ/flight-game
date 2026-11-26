@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #0b1622; }
+body {
+  font-family: sans-serif;
+  color: #eaf4fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stage { width: min(1300px, 100vw); padding: 10px; }
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #3f7fc4;
+  border: 2px solid rgba(255, 209, 102, 0.55);
+  border-radius: 8px;
+}
+.controls {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(234, 244, 250, 0.85);
+  margin: 10px 0 0;
+}
